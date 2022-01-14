@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    h2 {
+      margin-bottom: 0;
+    }
+  </style>
+  <title>Document</title>
+</head>
+<body>
+  <div id="app" class="container">
+    <!-- <h2>GET</h2>
+    <button @click="getProducts">GET /products</button>
+    <br> -->
+
+    <h2>POST</h2>
+    <form @submit.prevent="createProduct">
+      <label>商品名
+      <input type="text" v-model="newProduct.name">
+      </label><br>
+      <label>価格　
+        <input type="number" v-model.number="newProduct.price">
+      </label><br>
+      <input type="submit" value="POST /product">
+    </form>
+    <br>
+    [[ newProduct.name ]]<br>
+    [[ newProduct.price ]]
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14"></script>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script>
+    const app = new Vue({
+      el: '#app',
+      delimiters: ['[[', ']]'],
+      data: {
+        newProduct: {name: '', price: null},
+      },
+      methods: {
+        getProducts: function() {
+          console.log('getProducts');
+          axios.get('/products')
+            .then(response => {
+              for (const product of response.data.products) {
+                console.log(product);
+              }
+            })
+            .catch(error => {
+              console.log(error);
+            })
+          },
+
+          createProduct: function() {
+            console.log('this.newProduct');
+            console.log(this.newProduct);
+            console.log('this.newProduct');
+
+            // const params = new FormData();
+            // params.append('params', this.newProduct);
+
+            axios.post('/product', this.newProduct)
+              .then(response => {
+                console.log('succcess');
+                console.log(response);
+                console.log(response.data.products);
+                for (const product of response.data.products) {
+                  console.log(product);
+                }
+              })
+              .catch(error => {
+                console.log('error');
+                console.log(error);
+              })
+          }
+        }
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,6 @@
+C:\Users\anderson\OneDrive\00.コンテンツ\コンテンツ_20211212_デザインパターン\04_Facadeパターン\ren2\Machine\Machine\bin\Debug\Machine.dll
+C:\Users\anderson\OneDrive\00.コンテンツ\コンテンツ_20211212_デザインパターン\04_Facadeパターン\ren2\Machine\Machine\bin\Debug\Machine.pdb
+C:\Users\anderson\OneDrive\00.コンテンツ\コンテンツ_20211212_デザインパターン\04_Facadeパターン\ren2\Machine\Machine\obj\Debug\Machine.csproj.AssemblyReference.cache
+C:\Users\anderson\OneDrive\00.コンテンツ\コンテンツ_20211212_デザインパターン\04_Facadeパターン\ren2\Machine\Machine\obj\Debug\Machine.csproj.CoreCompileInputs.cache
+C:\Users\anderson\OneDrive\00.コンテンツ\コンテンツ_20211212_デザインパターン\04_Facadeパターン\ren2\Machine\Machine\obj\Debug\Machine.dll
+C:\Users\anderson\OneDrive\00.コンテンツ\コンテンツ_20211212_デザインパターン\04_Facadeパターン\ren2\Machine\Machine\obj\Debug\Machine.pdb

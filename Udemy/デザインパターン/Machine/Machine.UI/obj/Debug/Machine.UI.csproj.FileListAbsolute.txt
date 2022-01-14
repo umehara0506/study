@@ -1,0 +1,9 @@
+C:\Users\anderson\OneDrive\00.コンテンツ\コンテンツ_20211212_デザインパターン\04_Facadeパターン\ren2\Machine\Machine.UI\bin\Debug\Machine.UI.exe.config
+C:\Users\anderson\OneDrive\00.コンテンツ\コンテンツ_20211212_デザインパターン\04_Facadeパターン\ren2\Machine\Machine.UI\bin\Debug\Machine.UI.exe
+C:\Users\anderson\OneDrive\00.コンテンツ\コンテンツ_20211212_デザインパターン\04_Facadeパターン\ren2\Machine\Machine.UI\bin\Debug\Machine.UI.pdb
+C:\Users\anderson\OneDrive\00.コンテンツ\コンテンツ_20211212_デザインパターン\04_Facadeパターン\ren2\Machine\Machine.UI\obj\Debug\Machine.UI.csproj.AssemblyReference.cache
+C:\Users\anderson\OneDrive\00.コンテンツ\コンテンツ_20211212_デザインパターン\04_Facadeパターン\ren2\Machine\Machine.UI\obj\Debug\Machine.UI.Properties.Resources.resources
+C:\Users\anderson\OneDrive\00.コンテンツ\コンテンツ_20211212_デザインパターン\04_Facadeパターン\ren2\Machine\Machine.UI\obj\Debug\Machine.UI.csproj.GenerateResource.cache
+C:\Users\anderson\OneDrive\00.コンテンツ\コンテンツ_20211212_デザインパターン\04_Facadeパターン\ren2\Machine\Machine.UI\obj\Debug\Machine.UI.csproj.CoreCompileInputs.cache
+C:\Users\anderson\OneDrive\00.コンテンツ\コンテンツ_20211212_デザインパターン\04_Facadeパターン\ren2\Machine\Machine.UI\obj\Debug\Machine.UI.exe
+C:\Users\anderson\OneDrive\00.コンテンツ\コンテンツ_20211212_デザインパターン\04_Facadeパターン\ren2\Machine\Machine.UI\obj\Debug\Machine.UI.pdb
